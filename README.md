@@ -13,14 +13,10 @@ Project Structure:
 - globalParameters.properties has all the configurable items
 - Report location: “/allure-results”
 
-![image](https://github.com/user-attachments/assets/52003836-ddc0-4922-998a-054aa8134cde)
-
-
 Project Execution:
-1a. To run the project from maven, use the “mvn clean test” command from the command line tool.
-1b. To run the project from runner file, run the TestRunner file under test.Runners.
-2. To view report, run mvn allure:sure command from the command line tool.
+1. To run the project from maven, use the “mvn clean test” command from the command line tool.
+2. To run the project from runner file, run the TestRunner file under test.Runners.
+3. To view report, run mvn allure:sure command from the command line tool.
 Below is the generated sample allure report:
- 
- 
-![image](https://github.com/user-attachments/assets/3a1aebe9-2130-4f99-aeb8-080ded59eb26)
+   
+All the screenshots are present in README_UI.docx file

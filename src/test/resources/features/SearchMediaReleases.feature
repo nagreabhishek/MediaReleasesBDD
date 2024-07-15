@@ -7,7 +7,7 @@ Feature: Search media releases
     When User selects the "<Ministers>" from the accordion
     And User clicks on apply filters button
     And User verifies the item cards
-    And User clicks on Clear all filters link
+    And User clicks on Clear all filters button
     Then User verifies that the filters are cleared
 
     Examples:

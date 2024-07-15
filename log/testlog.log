@@ -25,3 +25,15 @@
 2024-07-15 16:13:44,176 - Media Releases -INFO - Assert that the image urls are not null
 2024-07-15 16:13:55,162 - Media Releases -INFO - Search media releases by selecting ministers from the category and clearing filter is Pass
 2024-07-15 16:13:55,466 - Media Releases -INFO - Browser closed Successfully
+2024-07-15 17:33:06,985 - Media Releases -ERROR - Error while opening browser. Browser Name = chrome
+2024-07-15 17:33:34,557 - Media Releases -INFO - Assert that resultCountAfterFilter<=resultCountBeforeFilter
+2024-07-15 17:33:34,566 - Media Releases -INFO - Assert that the href urls are not null
+2024-07-15 17:33:35,215 - Media Releases -INFO - Assert that the image urls are not null
+2024-07-15 17:33:47,360 - Media Releases -INFO - Search media releases by selecting ministers from the category and clearing filter is Pass
+2024-07-15 17:33:47,600 - Media Releases -INFO - Browser closed Successfully
+2024-07-15 17:34:26,894 - Media Releases -INFO - Browser Launched Successfully
+2024-07-15 17:34:59,743 - Media Releases -INFO - Assert that resultCountAfterFilter<=resultCountBeforeFilter
+2024-07-15 17:34:59,757 - Media Releases -INFO - Assert that the href urls are not null
+2024-07-15 17:35:01,036 - Media Releases -INFO - Assert that the image urls are not null
+2024-07-15 17:35:15,381 - Media Releases -INFO - Search media releases by selecting ministers from the category and clearing filter is Pass
+2024-07-15 17:35:15,620 - Media Releases -INFO - Browser closed Successfully

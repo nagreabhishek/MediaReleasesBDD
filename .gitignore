@@ -6,9 +6,10 @@
 /reports
 /allure-results
 /log
+/target
 
 !/src
-/•gitignore
+!/•gitignore
 !/.iml
 !/pom.xml
 !/README.md

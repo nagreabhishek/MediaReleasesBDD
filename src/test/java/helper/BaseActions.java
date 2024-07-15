@@ -54,6 +54,14 @@ public class BaseActions extends Base {
         }
     }
 
+    public void verifyItemCardInformationText() {
+        ElementsCollection listOfItemCardInfoText = $$(By.xpath("//div[@class='nsw-list-item__copy']/child::p"));
+        for (SelenideElement information : listOfItemCardInfoText) {
+            String infoText = information.getText();
+            Assert.assertNotNull(infoText);
+        }
+    }
+
     public void verifyItemCardDate() {
         ElementsCollection listOfItemCardDates = $$(By.xpath("//div[@class='nsw-list-item__info']"));
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");

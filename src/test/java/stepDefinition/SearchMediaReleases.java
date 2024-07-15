@@ -57,10 +57,11 @@ public class SearchMediaReleases extends DriverManager {
         baseActions.verifyEmptyUrlAdd();
         baseActions.verifyEmptyImageAdd();
         baseActions.verifyItemCardHeading();
+        baseActions.verifyItemCardInformationText();
     }
 
-    @And("User clicks on Clear all filters link")
-    public void userClicksOnClearAllFiltersLink() {
+    @And("User clicks on Clear all filters button")
+    public void userClicksOnClearAllFiltersButton() {
         HomePage homePage = new HomePage();
         homePage.applyFiltersButton.scrollTo();
         homePage.clearAllFiltersButton.click();
